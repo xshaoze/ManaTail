@@ -1,0 +1,28 @@
+.title-txt {
+    display: none;
+}
+
+/*响应式更改*/
+@media screen and (max-width: 576px) {
+    .title-txt {
+        display: inline-block;
+    }
+    
+}
+@media screen and (max-width: 278px) {
+    .my-img-top {
+        display: none;
+    } 
+}
+@media screen and (max-width: 200px) {
+    .title-txt {
+        display: none;
+    } 
+}
+
+
+/*
+
+display: none; 隐藏元素
+
+*/
